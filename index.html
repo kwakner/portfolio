@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amenyo Xornam Francis | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="logo">AXF</a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Hi, I'm <span class="gradient-text">Amenyo Xornam Francis</span>
+            </h1>
+            <p class="hero-subtitle">
+              <span id="typing"></span><span class="cursor">|</span>
+            </p>
+            <p class="hero-description">
+              I craft beautiful, responsive web experiences with modern
+              technologies. Passionate about clean code and user-centered
+              design.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="Amenyo. Cv.pdf" download class="btn btn-secondary">
+                <span>Download CV</span>
+                <i class="fas fa-download"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="floating-card">
+              <div class="card-content">
+                <i class="fas fa-code"></i>
+                <p>Frontend Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="picture" class="picture reveal">
+      <div class="container">
+        <div class="picture-container">
+          <img src="#!" alt="Profile Picture" class="profile-image" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I'm a passionate frontend developer with a keen eye for design and
+              a love for clean, efficient code. With expertise in modern web
+              technologies, I create digital solutions that are not just
+              functional but also delightful to use.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new design trends,
+              contributing to open-source projects, or sharing knowledge with
+              the developer community.
+            </p>
+            <div class="about-stats">
+              <div class="stat">
+                <h3>50+</h3>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat">
+                <h3>30+</h3>
+                <p>Happy Clients</p>
+              </div>
+              <div class="stat">
+                <h3>3+</h3>
+                <p>Years Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills reveal">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Semantic markup and accessibility</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Responsive design & animations</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-js-square"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>ES6+ and modern frameworks</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-react"></i>
+            </div>
+            <h3>React</h3>
+            <p>Component-based development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-bootstrap"></i>
+            </div>
+            <h3>Bootstrap</h3>
+            <p>Rapid UI development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Figma & design systems</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-php"></i>
+            </div>
+            <h3>PHP</h3>
+            <p>Server-side development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>SQL</h3>
+            <p>Database design & queries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Platform</h3>
+              <p>
+                A modern e-commerce site built with React and Node.js featuring
+                real-time inventory management.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">MongoDB</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>
+                A responsive task management application with drag-and-drop
+                functionality and real-time updates.
+              </p>
+              <div class="project-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Firebase</span>
+                <span class="tag">CSS3</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-placeholder">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                A comprehensive dashboard for data visualization with
+                interactive charts and real-time metrics.
+              </p>
+              <div class="project-tags">
+                <span class="tag">React</span>
+                <span class="tag">Chart.js</span>
+                <span class="tag">API</span>
+              </div>
+              <a href="#" class="project-link"
+                >View Project <i class="fas fa-external-link-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="container">
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">
+          Have a project in mind? Let's create something amazing together.
+        </p>
+
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div>
+                <h3>WhatsApp</h3>
+                <p>
+                  <a href="https://wa.me/+233544544994" target="_blank"
+                    >+233 544544994</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:amenyofrancis27@gmail.com"
+                    >amenyofrancis27@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-section">
+            <h3>Connect With Me</h3>
+            <p>Follow me on social media</p>
+            <div class="social-icons">
+              <a
+                href="https://github.com/kwakner"
+                aria-label="GitHub"
+                class="social-icon"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" aria-label="Twitter" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Amenyo Xornam Francis. All rights reserved.</p>
+          <div class="social-links">
+            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
