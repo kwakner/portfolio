@@ -1,6 +1,12 @@
 // Typing animation
 const typingElement = document.getElementById("typing");
-const textArray = ["Frontend Developer", "UI/UX Enthusiast", "Web Developer"];
+const textArray = [
+  "Frontend Developer",
+  "UI/UX Enthusiast",
+  "Web Developer",
+  "Digital Marketing",
+  "Ecommerce Specialist",
+];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
